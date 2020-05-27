@@ -1,0 +1,240 @@
+$col:white;
+.head3{
+    position: relative;
+    top: 200px;
+    padding: 0 50px;
+}
+.h1-1{
+    font-weight: 800;
+    color:white;
+    text-transform: capitalize;
+    
+}
+.hov:hover{
+    background-color:black;
+    color: white;
+}
+.hove2:hover{
+
+background-color: green;
+border-radius: 15px;
+color: black;
+}
+
+.ae{
+    color:$col;
+    font-size: 20px;
+}
+.ae:hover{
+
+    color: white;
+    text-decoration: none;
+    opacity: .5;
+}
+.bb{
+    color: white;
+    font-size: 20px;
+}
+.mg{
+    background: url(back.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 90px;
+}
+
+.bord{
+    height: 100px;
+    float: left;
+    position: relative;
+    top: -20px;
+    right: 20px;
+    border-right: 6px solid white;
+}
+
+.bg{
+    background-color: skyblue;
+}
+.hed3{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.cont{
+    margin: auto;
+    box-shadow: 1px 3px 1px 3px;
+    height: 520px;
+bottom: 30px;
+position: relative;
+background-color: white;
+}
+.image{
+    background-image: url(AAA.jpg);
+    height:550px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    
+}
+.fon1{
+    font-size: 30px;
+    margin-left: 18px;
+  }
+  .fon1:hover{
+    color: #e74c3c;
+  }
+  .color{
+    color: #fff;
+  }
+  .color:hover{
+    text-decoration: none;
+    color: #e74c3c;
+  }
+.cont19{
+    background: url(blueback.jpg);
+ color: white;
+ transform: translateY(80px);
+ width: 100%;
+ 
+ font-family: Arial, Helvetica, sans-serif;
+ }
+.div1{
+    padding: 50 40px;
+}
+.fon9{
+    font-size: 30px;
+    margin-left: 10px;
+    color: red;
+}
+.fon10{
+    font-size: 30px;
+    margin-left: 10px;
+    color: rgb(83, 83, 245);
+}
+.fon11{
+    font-size: 30px;
+    margin-left: 10px;
+    color: skyblue;
+}
+.fon12{
+    font-size: 30px;
+    margin-left: 10px;
+    color: orangered;
+    
+}
+.in1{
+    padding: 40px 30px;
+}
+.dd{
+    padding: 20px 30px;
+}
+.bt1{
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+@media(max-width:700px){
+    .cont{
+        margin: auto;
+        box-shadow: 1px 3px 1px 3px;
+        height: 1150px;
+    bottom: 30px;
+    position: relative;
+    background-color: white;
+    }
+    .image{
+        background-image: url(AAA.jpg);
+        height:1000px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+    }
+}
+@media(max-width:900px){
+    .cont{
+        margin: auto;
+        box-shadow: 1px 3px 1px 3px;
+        height: 1150px;
+    bottom: 30px;
+    position: relative;
+    background-color: white;
+    }
+    .image{
+        background-image: url(AAA.jpg);
+        height:1000px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+    }
+}
+@media(max-width:1110px){
+    .cont{
+        margin: auto;
+        box-shadow: 1px 3px 1px 3px;
+        height: 1150px;
+    bottom: 30px;
+    position: relative;
+    background-color: white;
+    }
+    .image{
+        background-image: url(AAA.jpg);
+        height:1000px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+    }
+}
+.em{
+    position: relative;
+    left: 20px;
+    color: red;
+display: none;
+margin: 0;
+padding: 0;
+}
+.nam{
+    position: relative;
+    left: 20px;
+    color:red;
+    display: none;
+margin: 0;
+padding: 0;
+}
+.sub{
+    
+    position: relative;
+    left: 20px;
+    color: red;
+    display: none;
+}
+.xn{
+    color: red;
+    position: relative;
+    left: 10px;
+    display: none;
+}
+.QZ{
+    border: red 1px solid;
+}
+.QZ1{
+    border: solid skyblue 1px;
+}
+#topb{
+    position: fixed;
+bottom: 20px;
+right: 40px;
+    font-size: 22px;
+    width: 50px;
+    display: none;
+    height: 50px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+  }

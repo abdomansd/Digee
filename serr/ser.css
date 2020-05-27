@@ -1,0 +1,392 @@
+.EA {
+  color: black;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.head3 {
+  position: relative;
+  top: 200px;
+  padding: 0 50px;
+}
+
+.h1-1 {
+  font-weight: 800;
+  color: white;
+  text-transform: capitalize;
+}
+
+.h2-3 {
+  font-weight: 800;
+  word-spacing: 5px;
+  margin-bottom: 30px;
+}
+
+.hed3 {
+  margin: auto;
+  text-align: center;
+}
+
+.EA:hover {
+  color: #7f05d6;
+  text-decoration: none;
+}
+
+.div11 {
+  position: relative;
+  height: 400px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.padd10 {
+  padding: 0 90px;
+  margin-bottom: 60px;
+}
+
+.div11:hover {
+  background-image: url(people.png);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.div12 {
+  height: 400px;
+  text-align: center;
+  padding: 10px;
+  transition: 0.3s ease;
+  box-shadow: 2px 2px 2px 2px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.bg {
+  background-color: skyblue;
+}
+
+.sp2 {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.div-icon {
+  margin-bottom: 10px;
+}
+
+.fon3 {
+  color: green;
+}
+
+.mr10 {
+  margin-top: 15px;
+}
+
+sub {
+  font-size: 25px;
+}
+
+.div12:hover {
+  background-color: purple;
+  width: 500%;
+  opacity: 0.9;
+  color: white;
+  margin-left: -16px;
+  width: 108%;
+}
+
+.div12:hover .mr10 {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 1125px) {
+  .div12:hover {
+    background-color: purple;
+    opacity: 0.9;
+    color: white;
+    margin-left: -18px;
+    width: 110%;
+  }
+
+  .div12 {
+    height: 450px;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .chang-place {
+    transform: translateY(-440px);
+  }
+
+  .cont19 {
+    background: url(blueback.jpg);
+    color: white;
+    width: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .mr10 {
+    transform: translateY(-30px);
+  }
+
+  .div11 {
+    position: relative;
+    height: 450px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .div11:hover {
+    background-image: url(people.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+.div12:hover .fon3 {
+  color: white;
+}
+
+@media (max-width: 960px) {
+  .div12:hover {
+    background-color: purple;
+    opacity: 0.9;
+    color: white;
+    margin-left: -18px;
+    width: 106%;
+  }
+
+  .bt4 {
+    display: none;
+  }
+
+  .chang-place {
+    transform: translateY(-440px);
+  }
+
+  .div12 {
+    height: 450px;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .cont19 {
+    background: url(blueback.jpg);
+    color: white;
+    width: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .mr10 {
+    transform: translateY(-30px);
+  }
+
+  .div11 {
+    position: relative;
+    height: 450px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .div11:hover {
+    background-image: url(people.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 590px) {
+  .div12:hover {
+    background-color: purple;
+    opacity: 0.9;
+    color: white;
+    margin-left: -18px;
+    width: 110%;
+  }
+
+  .padd10 {
+    padding: 0 20px;
+  }
+
+  .bt4 {
+    display: none;
+  }
+
+  .chang-place {
+    transform: translateY(-440px);
+  }
+
+  .div12 {
+    height: 450px;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .cont19 {
+    background: url(blueback.jpg);
+    color: white;
+    width: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .mr10 {
+    margin-top: 50px;
+  }
+
+  .div11 {
+    position: relative;
+    height: 450px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .div11:hover {
+    background-image: url(people.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 399px) {
+  .div12:hover {
+    background-color: purple;
+    opacity: 0.9;
+    color: white;
+    margin-left: -18px;
+    width: 110%;
+  }
+
+  .bt4 {
+    display: none;
+  }
+
+  .padd10 {
+    padding: 0 10px;
+    margin-bottom: 60px;
+  }
+
+  .chang-place {
+    transform: translateY(-440px);
+  }
+
+  .div12 {
+    height: 450px;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .cont19 {
+    background: url(blueback.jpg);
+    color: white;
+    width: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .mr10 {
+    transform: translateY(-30px);
+  }
+
+  .div11 {
+    position: relative;
+    height: 450px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .div11:hover {
+    background-image: url(people.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+.cont19 {
+  background: url(blueback.jpg);
+  color: white;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fon1 {
+  font-size: 30px;
+  margin-left: 18px;
+}
+
+.fon1:hover {
+  color: #e74c3c;
+}
+
+.color {
+  color: #fff;
+}
+
+.color:hover {
+  text-decoration: none;
+  color: #e74c3c;
+}
+
+.h2- {
+  font-weight: 800;
+}
+
+.h2-7 {
+  font-weight: 900;
+  margin-top: -5px;
+}
+
+.pa10 {
+  padding: 0 40px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+#topb {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.hov:hover {
+  background-color: black;
+  color: white;
+}
+
+.hove2:hover {
+  background-color: green;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=ser.css.map */

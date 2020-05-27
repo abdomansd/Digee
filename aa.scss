@@ -1,0 +1,274 @@
+$color:blue; 
+$col:purple;
+$col2:white;
+$col3:black;
+$top:-20px;
+$wight:900;
+$col4: #7f05d6;
+$back:red;
+$cp:blue;
+$col:#ffffff;
+$font:800;
+$FON:25px;
+$col3:black;
+$col4: #7f05d6;
+$color:blue; 
+$col:purple;
+$col2:white;
+$col3:black;
+$top:-20px;
+$wight:900;
+$col4: #7f05d6;
+$rudious:10px;
+$colk: #28a745;
+$po:relative;
+$hight:500px;
+$col-9:orange;
+$text:none;
+.spa{
+    color: $color;
+
+    
+}
+.hov:hover{
+    background-color:$col3 ;
+    color: $col2;
+}
+.hove2:hover{
+
+background-color: $colk;
+border-radius: $rudious;
+}
+.h2-1{
+  
+    margin-top: 40px;
+    position: relative;
+    font-weight: $wight;
+    
+}
+.h2-2{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: $top;
+    font-weight: $wight;
+}
+.h2-{
+    
+    margin-top: 40px;
+    position: relative;
+    font-weight: $wight;
+    
+}
+.h2-7{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -10px;
+    margin-bottom: 10px;
+    font-weight: $wight;
+}
+.h2-3{
+    font-weight: $wight;
+    word-spacing: 5px;
+    margin-bottom: 30px;
+}
+.bt1{
+    padding: 13px;
+    background-color:$col2; 
+    border: black 1px solid;
+    color: $col3;
+}
+.bt1:hover{
+    background-color:$col4;
+    color: $col3;
+}
+.hed3{
+margin: auto;
+text-align: center;
+}
+.padd{
+    padding: 0 20%;
+}
+.padd1{
+    padding: 0 5%;
+}
+.EA{
+    color: $col3;
+}
+.swiper-container{
+    width: 200px;
+    height: 70px;
+}
+.EA:hover{
+    color: $col4;
+    text-decoration: none;
+}
+.ses{
+background-image: url(AAA.jpg);
+background-size: cover;
+height: 300px;
+position:$po;
+
+
+}
+.remol{
+    
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: purple;
+position: absolute;
+opacity: .8;
+}
+.o{
+    z-index: 3;
+    font-size: 29px;
+    color: purple;
+}
+.h3-1{
+    z-index: 10;
+    color: white;
+    font-weight: 900;
+}
+.h5-1{
+    z-index: 10;
+    color: white;
+}
+.num1{
+    margin:  150px auto;
+    text-align: center;
+}
+.checked {
+    color: orange;
+    font-size: 20px;
+  }  
+ 
+  .XZ{
+      box-shadow: 3px 4px 5px 6px;
+      height: 200px;
+  }
+  .progress {
+    width: 150px;
+    height: 150px;
+    background: none;
+    position: relative;
+  }
+  
+  .progress::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 6px solid #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+  }
+  
+  .progress>span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .progress .progress-left {
+    left: 0;
+  }
+  
+  .progress .progress-bar {
+    width: 100%;
+    height:100%;
+    background: none;
+    border-width: 6px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+  }
+  
+  .progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+  }
+  
+  .progress .progress-right {
+    right: 0;
+  }
+  
+  .progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+  }
+  
+  .progress .progress-value {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  
+  
+  
+  .rounded-lg {
+    border-radius: 1rem;
+  }
+  
+  .text-gray {
+    color: #aaa;
+  }
+  
+  div.h4 {
+    line-height: 1rem;
+  }
+  .blue{
+      height: 300px;
+      background: linear-gradient( 90deg, rgb(42,202,255) 0%, rgb(9,154,202) 100%);
+  }
+  .BV{
+
+margin-bottom: 80px;
+
+  }
+  .b0 {
+      background-color: white;
+      height: 520px;
+  }
+  .b0:hover{
+      box-shadow: skyblue 4px 4px 5px 5px;
+  }
+  .a-col{
+      color:$col-9 ;
+  }
+  .a-col:hover{
+      text-decoration: $text;
+      color: $col-9;
+  }
+  .ZZA{
+      transform: translateY(50px);
+  }
+  .sp7{
+      margin-left: 20px;
+      color: gray;
+      
+  }
+  .swipe {
+    width: 900px;
+    height: 300px;
+    
+    
+  }
+  
+  
+  

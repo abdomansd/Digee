@@ -1,0 +1,401 @@
+.head3 {
+  position: relative;
+  top: 200px;
+  padding: 0 50px;
+}
+
+.bg {
+  background-color: skyblue;
+  color: black;
+}
+
+.h1-1 {
+  font-weight: 800;
+  color: white;
+}
+
+.ae {
+  color: white;
+  font-size: 20px;
+}
+
+.ae:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.bb {
+  color: white;
+  font-size: 20px;
+}
+
+.bord {
+  height: 100px;
+  float: left;
+  position: relative;
+  top: -20px;
+  right: 20px;
+  border-right: 6px solid white;
+}
+
+.sp2 {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.div-icon {
+  margin-bottom: 10px;
+}
+
+.fon3 {
+  color: green;
+}
+
+.mr10 {
+  margin-top: 15px;
+}
+
+sub {
+  font-size: 25px;
+}
+
+.div11 {
+  position: relative;
+  height: 400px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.padd10 {
+  padding: 0 90px;
+  margin-bottom: 60px;
+}
+
+.div11:hover {
+  background-image: url(people.png);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.div12 {
+  height: 400px;
+  text-align: center;
+  padding: 10px;
+  transition: 0.3s ease;
+  box-shadow: 2px 2px 2px 2px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.div12:hover {
+  background-color: purple;
+  width: 500%;
+  opacity: 0.9;
+  color: white;
+  margin-left: -16px;
+  width: 108%;
+}
+
+.div12:hover .mr10 {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 1125px) {
+  .div12:hover {
+    background-color: purple;
+    opacity: 0.9;
+    color: white;
+    margin-left: -18px;
+    width: 110%;
+  }
+
+  .div12 {
+    height: 450px;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .chang-place {
+    transform: translateY(-440px);
+  }
+
+  .cont19 {
+    background: url(blueback.jpg);
+    color: white;
+    width: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .mr10 {
+    transform: translateY(-30px);
+  }
+
+  .div11 {
+    position: relative;
+    height: 450px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .div11:hover {
+    background-image: url(people.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+.div12:hover .fon3 {
+  color: white;
+}
+
+@media (max-width: 960px) {
+  .div12:hover {
+    background-color: purple;
+    opacity: 0.9;
+    color: white;
+    margin-left: -18px;
+    width: 106%;
+  }
+
+  .bt4 {
+    display: none;
+  }
+
+  .chang-place {
+    transform: translateY(-440px);
+  }
+
+  .div12 {
+    height: 450px;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .cont19 {
+    background: url(blueback.jpg);
+    color: white;
+    width: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .mr10 {
+    transform: translateY(-30px);
+  }
+
+  .div11 {
+    position: relative;
+    height: 450px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .div11:hover {
+    background-image: url(people.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 590px) {
+  .div12:hover {
+    background-color: purple;
+    opacity: 0.9;
+    color: white;
+    margin-left: -18px;
+    width: 110%;
+  }
+
+  .padd10 {
+    padding: 0 20px;
+  }
+
+  .bt4 {
+    display: none;
+  }
+
+  .chang-place {
+    transform: translateY(-440px);
+  }
+
+  .div12 {
+    height: 450px;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .cont19 {
+    background: url(blueback.jpg);
+    color: white;
+    width: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .mr10 {
+    margin-top: 50px;
+  }
+
+  .div11 {
+    position: relative;
+    height: 450px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .div11:hover {
+    background-image: url(people.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 399px) {
+  .div12:hover {
+    background-color: purple;
+    opacity: 0.9;
+    color: white;
+    margin-left: -18px;
+    width: 110%;
+  }
+
+  .bt4 {
+    display: none;
+  }
+
+  .padd10 {
+    padding: 0 10px;
+    margin-bottom: 60px;
+  }
+
+  .chang-place {
+    transform: translateY(-440px);
+  }
+
+  .div12 {
+    height: 450px;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .cont19 {
+    background: url(blueback.jpg);
+    color: white;
+    width: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .mr10 {
+    transform: translateY(-30px);
+  }
+
+  .div11 {
+    position: relative;
+    height: 450px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .div11:hover {
+    background-image: url(people.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+.numb1 {
+  transform: translateY(500px);
+  text-align: center;
+  margin-bottom: 20px;
+  visibility: visible;
+  animation-delay: 17s;
+}
+
+.numb1 h3 {
+  font-size: 40px;
+}
+
+.contine {
+  padding: 0 50px;
+}
+
+.bt4 {
+  padding: 16px;
+  position: relative;
+  top: 60px;
+  left: 400px;
+}
+
+.cont19 {
+  background: url(blueback.jpg);
+  color: white;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fon1 {
+  font-size: 30px;
+  margin-left: 18px;
+}
+
+.fon1:hover {
+  color: #e74c3c;
+}
+
+.color {
+  color: #fff;
+}
+
+.color:hover {
+  text-decoration: none;
+  color: #e74c3c;
+}
+
+#topb {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.hov:hover {
+  background-color: black;
+  color: white;
+}
+
+.hove2:hover {
+  background-color: green;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=pr.css.map */

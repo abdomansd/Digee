@@ -1,0 +1,233 @@
+$col:white;
+.head3{
+    position: relative;
+    top: 200px;
+    padding: 0 50px;
+}
+.h1-1{
+    font-weight: 800;
+    color:white;
+    text-transform: capitalize;
+    
+}
+.hov:hover{
+    background-color:black;
+    color: white;
+}
+.hove2:hover{
+
+background-color: green;
+border-radius: 15px;
+color: black;
+}
+
+.ae{
+    color:$col;
+    font-size: 20px;
+}
+.ae:hover{
+
+    color: white;
+    text-decoration: none;
+    opacity: .5;
+}
+.bb{
+    color: white;
+    font-size: 20px;
+}
+.mg{
+    background: url(back.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 90px;
+}
+.div1{
+ height: 500px;
+ transition: all .5s  ease-in-out;
+ background-color: whitesmoke;
+}
+.div1:hover{
+    box-shadow: 5px 5px 8px,-5px -5px 8px #DDD;
+   
+}
+
+.bg{
+    background-color: skyblue;
+}
+.pad{
+    padding: 0 10px;
+}
+.aR{
+    color: #000;
+    
+}
+.aR1{
+    color: orange;
+    position: relative;
+    left: 5px;
+    
+}
+.aR1:hover{
+    color: orange;
+    text-decoration: none;
+}
+.aR:hover{
+    color: purple;
+    text-decoration: none;
+}
+.img{
+    background:url(img1.jpg);
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px
+}
+
+.hello{
+    height: 250px;
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px
+}
+.hello2{
+    height: 250px;
+    background-image: url(img3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px
+}
+.image3{
+    height: 250px;
+    background-image: url(img4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px
+} 
+.image4{
+    height: 250px;
+    background-image: url(img5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px
+} 
+.image5{
+    height: 250px;
+    background-image: url(img6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px
+}
+.image6{
+    height: 250px;
+    background-image: url(img7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px
+}
+.image7{
+    height: 250px;
+    background-image: url(img8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px
+}
+.image8{
+    height: 250px;
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px
+}
+
+.btn-group button {
+    background-color: white;
+    border: 1px solid rgb(0, 102, 128); 
+    color: #000;
+    padding: 10px 24px;
+    cursor: pointer; 
+    
+  }
+  .box-button{
+      margin: auto;
+      text-align: center;
+      position: relative;
+      bottom: 30px;
+  }
+  
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none;
+  }
+  
+  
+  .btn-group button:hover {
+    background-color: #3e618e;
+  }
+  .fon1{
+    font-size: 30px;
+    margin-left: 18px;
+  }
+  .fon1:hover{
+    color: #e74c3c;
+  }
+  .color{
+    color: #fff;
+  }
+  .color:hover{
+    text-decoration: none;
+    color: #e74c3c;
+  }
+  .bord{
+    height: 100px;
+    float: left;
+    position: relative;
+    top: -20px;
+    right: 20px;
+    border-right: 6px solid white;
+}
+
+.cont19{
+    background: url(blueback.jpg);
+ color: white;
+ 
+ width: 100%;
+ 
+ font-family: Arial, Helvetica, sans-serif;
+ }
+ #topb{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
+ .mb{
+     margin-bottom: 60px;
+ }
+
+
+
+ 

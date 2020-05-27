@@ -1,0 +1,500 @@
+<html>
+    <head>
+        <title>
+          Blog liste
+        </title>
+        <link rel="shortout icon" type="image/x-icon" href="favicon.png" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+        
+         <link href=" bl2.css" rel="stylesheet">
+        <style>
+     
+.mr30{
+    color: black;
+}
+.mr30:hover{
+    text-decoration: none;
+    color: purple;
+}
+.overly{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: black;
+    z-index: 99999;
+
+}
+body{
+    overflow-y: hidden;
+}
+.spinner {
+  width: 50px;
+  height: 50px;
+  background-color:purple;
+
+  margin: 300px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+        </style>
+    
+    </head>
+    <body>
+        <div class="cont1">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+                  <a class="navbar-brand" href="#"><span style="font-size: 25px;font-weight: 800;">Dig</span><span style="font-weight: 800;
+                   color: black;font-size: 25px;">ee</span></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse"
+                   data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item dropdown hove2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Home
+                       </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item hov" href="index.html">HOME ONE</a>
+                          <a class="dropdown-item hov" href="index.html">HOME TOW</a>
+                          <a class="dropdown-item hov" href="index.html">HOME THREE</a>
+                        
+                        
+                        </div>
+                      </li>
+                      <li class="nav-item hove2">
+                        <a class="nav-link" href="price.html">Services</a>
+                      </li>
+                      <li class="nav-item dropdown hove2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          protfilo
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item hov" href="port.html">protfilo coulim1</a>
+                          <a class="dropdown-item hov" href="port.html">protfilo coulim2</a>
+                          <a class="dropdown-item hov" href="port.html">protfilo coulim3</a>
+                       
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown hove2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                         aria-haspopup="true" aria-expanded="false">
+                          Bages
+                        </a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item hov" href="About.html">about us</a>
+                          <a class="dropdown-item hov" href="Pricing.html">pricing plan</a>
+                          <a class="dropdown-item hov" href="team.html">our team</a>
+                                  
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown hove2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Blog
+                        </a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item hov" href="bloge.html"> blog grid</a>
+                          <a class="dropdown-item hov" href="blog2.html">
+                            blog liste
+                          </a>
+                          <a class="dropdown-item hov" href="blog2.html">blog detailes</a>
+                       
+                        </div>
+                      </li>
+                      <li class="hove2">
+                        <a class="nav-link " href="contact.html">Contact Us</a>
+                      </li>
+                     
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      <button style="color: black;" class=" btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                  </div>
+                </nav>
+               </header>
+               
+    <div class="mg  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+        <div class="head2">
+          <div class="head3 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+              <div class="bord"></div>
+            <h2 class="h1-1">Blog Gride Slidear</h2>
+            <a class="ae" href="object.html"><span>Home</span></a>
+            <span class="bb">- Blog</span>
+          </div>
+        </div>
+           
+    </div>
+        </div>
+        <div class="container">
+<div class="row">
+    <div class="conq col-12 col-sm-12 col-md-12 col-lg-8 col-lx-8 ">
+        <div class="row">
+            <div class="div2 col-12 col-sm-12 col-md-6 col-lg-6 col-lx-6" style="margin-bottom: 20px;">
+                <div class="div1">
+                <div class="img  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+                </div>
+                <a class="aR" href="#"><h4 style="font-weight: 800;  padding-left: 10px;box-sizing: border-box;">How to become a best
+                    sale marketer in a years</h4></a>
+                    <p style="font-style: 18px;color: rgb(94, 94, 94);">There are many
+                         variations of passages of at Lorem Ipsum available but the majority the have suffered alteration.</p>
+         <div class="container col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">    
+<div class="row">
+<div class="smn col-6 col-sm-6 col-md-6 col-lg-6 col-lx-6">
+<img src="smn.png" >
+<a  class="aR1" href="#">Toby Halvorson</a>
+</div>
+<div class="pQ  col-6 col-sm-6 col-md-6 col-lg-6 col-lx-6 ">
+<span>June 16, 2018</span>
+</div>
+</div>
+         </div>  
+            </div>
+            </div>
+            <div class="div2 col-12 col-sm-12 col-md-6 col-lg-6 col-lx-6" style="margin-bottom: 20px;">
+                <div class="div1">
+                    <div class="hello  col-12 col-sm-12 col-md-6 col-lg-12 col-lx-12">
+                    </div>
+                <a class="aR" href="#"><h4 style="font-weight: 800; padding-left: 10px;box-sizing: border-box;">How to more productive
+                    using sticky noites</h4></a>
+                    <p style="font-style: 18px;color: rgb(94, 94, 94);">There are many
+                         variations of passages of at Lorem Ipsum available but the majority the have suffered alteration.</p>
+         <div class="container col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">    
+<div class="row">
+<div class="smn col-6 col-sm-6 col-md-6 col-lg-6 col-lx-6">
+<img src="small.png"class="" >
+<a href="#" class="aR1">Darion Koepp</a>
+</div>
+<div class="pQ  col-6 col-sm-6 col-md-6 col-lg-6 col-lx-6 ">
+<span>June 16, 2018</span>
+</div>
+</div>
+         </div>  
+            </div>
+            </div>
+            <div class="div2 col-12 col-sm-12 col-md-6 col-lg-6 col-lx-6" style="margin-bottom: 20px;">
+                <div class="div1">
+                    <div class="hello2  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+                    </div>
+                <a class="aR" href="#"><h4 style="font-weight: 800; padding-left: 10px;box-sizing: border-box;"> Analytics Get the data
+                    you need to make </h4></a>
+                    <p style="font-style: 18px;color: rgb(94, 94, 94);">There are many
+                         variations of passages of at Lorem Ipsum available but the majority the have suffered alteration.</p>
+         <div class="container col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">    
+<div class="row">
+<div class="smn col-6 col-sm-6 col-md-6 col-lg-6 col-lx-6">
+<img src="small.png"class="" >
+<a href="#" class="aR1">Darion Koepp</a>
+</div>
+<div class="pQ  col-6 col-sm-6 col-md-6 col-lg-6 col-lx-6 ">
+<span>June 16, 2018</span>
+</div>
+</div>
+         </div>  
+            </div>
+            </div>
+            <div class="div2 col-12 col-sm-12 col-md-6 col-lg-6 col-lx-6" style="margin-bottom: 20px;">
+                <div class="div1">
+                    <div class="image3  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+                    </div>
+                <a class="aR" href="#"><h4 style="font-weight: 800; padding-left: 10px;box-sizing: border-box;">Does your design become
+                    better with technology? </h4></a>
+                    <p style="font-style: 18px;color: rgb(94, 94, 94);">There are many
+                         variations of passages of at Lorem Ipsum available but the majority the have suffered alteration.</p>
+         <div class="container col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">    
+<div class="row">
+<div class="smn col-6 col-sm-6 col-md-6 col-lg-6 col-lx-6">
+<img src="small.png"class="" >
+<a href="#" class="aR1">Darion Koepp</a>
+</div>
+<div class="pQ  col-6 col-sm-6 col-md-6 col-lg-6 col-lx-6 ">
+<span>June 16, 2018</span>
+</div>
+</div>
+         </div>  
+            </div>
+            </div>
+            <div class="div2 col-12 col-sm-12 col-md-6 col-lg-6 col-lx-6" style="margin-bottom: 20px;">
+                <div class="div1">
+                    <div class="image4  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+                    </div>
+                <a class="aR" href="#"><h4 style="font-weight: 800; padding-left: 10px;box-sizing: border-box;">We are nominated to
+                    Agency of the year.</h4></a>
+                    <p style="font-style: 18px;color: rgb(94, 94, 94);">There are many
+                         variations of passages of at Lorem Ipsum available but the majority the have suffered alteration.</p>
+         <div class="container col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">    
+<div class="row">
+<div class="smn col-6 col-sm-6 col-md-6 col-lg-6 col-lx-6">
+<img src="small.png"class="" >
+<a href="#" class="aR1">Darion Koepp</a>
+</div>
+<div class="pQ  col-6 col-sm-6 col-md-6 col-lg-6 col-lx-6 ">
+<span>June 16, 2018</span>
+</div>
+</div>
+         </div>  
+            </div>
+            </div>
+            <div style="margin-bottom: 60px;" class="div2 col-12 col-sm-12 col-md-6 col-lg-6 col-lx-6" style="margin-bottom: 20px;">
+                <div class="div1">
+                    <div class="image5  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+                    </div>
+                <a class="aR" href="#"><h4 style="font-weight: 800; padding-left: 10px;box-sizing: border-box;">How
+                     collaborative teams
+                    meaningful design?</h4></a>
+                    <p style="font-style: 18px;color: rgb(94, 94, 94);">There are many
+                         variations of passages of at Lorem Ipsum available but the majority the have suffered alteration.</p>
+         <div class="container col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">    
+<div class="row">
+<div class="smn col-6 col-sm-6 col-md-6 col-lg-6 col-lx-6">
+<img src="small.png"class="" >
+<a href="#" class="aR1">Darion Koepp</a>
+</div>
+<div class="pQ  col-6 col-sm-6 col-md-6 col-lg-6 col-lx-6 ">
+<span>June 16, 2018</span>
+</div>
+</div>
+         </div>  
+            </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box-button">
+            <div class="btn-group box-b">
+                <button class="bt1"><i class="fa fa-angle-double-left" aria-hidden="true"></i></button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="bt2"><i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+              </div>
+            </div>
+        </div>
+        </div>
+        <div class="cont5  col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+<div class=" col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 er1" >
+    <input   type="text"  class="form-control dd last inp1" id="exampleInputEmail1"
+    aria-describedby="emailHelp" placeholder="Search....">
+    
+        <a href="#" class="Er"><i class="fa fa-search" aria-hidden="true"></i></a>
+  
+</div>
+<div class="he1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+<h5>Categories</h5>
+<div style="margin-bottom: 15px;"><a href="#" class="ahov "><span>Graohic Design </span><span style="margin-left: 100px;">(18)</span></a></div>
+<div style="margin-bottom: 15px;"><a href="#" class="ahov"><span>IOS/Android Development  </span>
+    <span style="margin-left: 22px;">(13)</span></a></div>
+    <div style="margin-bottom: 15px;"><a href="#" class="ahov"><span>Web Development </span>
+        <span style="margin-left: 78px;">(27)</span></a></div>
+        <div style="margin-bottom: 15px;"><a href="#" class="ahov"><span>Project Manangment </span>
+            <span style="margin-left: 60px;">(15)</span></a></div>
+            <div style="margin-bottom: 15px;"><a href="#" class="ahov"><span>Competitive Researcht  </span>
+                <span style="margin-left: 50px;">(74)</span></a></div>
+                <div style="margin-bottom: 15px;"><a href="#" class="ahov"><span>Finance & Accounting   </span>
+                    <span style="margin-left:53px;">(19)</span></a></div>
+
+</div>
+<div class="he2  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+<h5 style="margin-bottom:25px;">Recent posts</h5>
+<div class="phot1">
+   <div class="row">
+       <div style="margin-bottom: 30px ;" class="col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+           <img style="float: left;" src="sm1.jpg ">
+           <span style="margin-left:10px;">July 28, 2019</span>
+           <h6 class="mr10"   ><a  href="#" class="mr30">How To Become A Best Sale Marketer In A Month!</a><h6>
+           </div>
+        <div  style="margin-bottom: 30px ;" class="col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+            <img style="float: left;" src="sm2.jpg ">
+            <span style="margin-left:10px;">July 28, 2019</span>
+            <h6 class="mr10"   ><a  href="#" class="mr30">5 steps to forming tax-exempt nonprofit corporation</a><h6>
+         </div>
+         <div  style="margin-bottom: 30px ;" class="col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+            <img style="float: left;" src="sm3.jpg ">
+            <span style="margin-left:10px;">July 28, 2019</span>
+            <h6 class="mr10"   ><a  href="#" class="mr30">Blank Image While now the fated Pequod so long</a><h6>
+         </div>
+        
+   </div>
+   
+</div>
+<div class="he3 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+    <h5 style="margin-bottom:15px;font-weight: 800;">Archives</h5>
+   <div style="text-decoration: none;">
+<p><a href="#" class="dd1">June 2018 (5)</a></p>
+<p style="transform: translateY(-10px);">  <a class="dd1" href="#">May 2018 (3)</a></p>
+<p style="transform: translateY(-10px);"> <a href="#" class="dd1">April 2018 (6)</a></p>
+<p style="transform: translateY(-10px);"> <a href="#" class="dd1">March 2018 (5)</a></p>
+<p style="transform: translateY(-15px);"> <a href="#" class="dd1">February 2018 (7)</a></p>
+<p style="transform: translateY(-17px);"> <a href="#" class="dd1">January 2018 (9)</a></p>
+</div>
+    
+
+</div>
+<div class=" he4 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 ">
+    <h5 style="margin-bottom:15px;font-weight: 800;">Tags</h5>
+   
+   
+    <div style="margin-bottom: 20px;">
+        <button type="button" class="btn btn-outline-primary">Market</button>
+        <button type="button" class="btn btn-outline-primary ">internt</button>
+         <button type="button" class="btn btn-outline-primary">online</button>
+       
+    </div>
+    <div style="margin-bottom: 20px;">
+        <button type="button" class="btn btn-outline-primary">Corporate</button>
+        <button type="button" class="btn btn-outline-primary ">Office</button>
+         <button type="button" class="btn btn-outline-primary">online</button>
+       
+    </div>
+   
+   
+    <div style="margin-bottom: 50px;"><button type="button" class="btn btn-outline-primary">Digital</button>
+        <button type="button" class="btn btn-outline-primary">Popular</button>
+    </div>
+
+</div>
+</div>
+
+        </div>
+        
+</div>
+         
+            
+        </div>
+        <div class="cont19 ">
+            <div class="container">
+              <div style="padding:50px 0px;" class="row">
+          
+          <div class="f1 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+          
+              <div class="padding1">
+          <h3 style="font-weight: bold; color: #fff;">Dig<span style="color: black;">ee</span></h3>
+          <div class="padding1">
+         <p>There are many variations of passages of Lorem the Ipsum available but the is majority have
+            suffered that a alteration in that some dummy text. passages of Lorem the Ipsum available</p>
+            <i class="fa fa-facebook-official fon1" aria-hidden="true"></i>
+            <i class="fa fa-instagram fon1" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square fon1" aria-hidden="true"></i>
+            <i class="fa fa-google-plus-square fon1" aria-hidden="true"></i>
+          </div>
+          </div>
+          </div>
+          <div class="f2 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+          
+              <div style="margin-bottom: 30px;" class="padding1">
+              <h3 style="font-weight: bold;">About Company</h3>
+              <div class="padding1">
+              <p><a href=""  class="color"> How it Work</a> </p>
+              <p><a href=""  class="color">Search Engine Opitimes </a></p>
+              <p><a href=""  class="color">Devolpment</a> </p>
+              <p><a href=""  class="color">Degital Markiting</a></p>
+              <p><a href=""  class="color">Contect Customers</a></p>
+              <p><a href=""  class="color">Our Security</a></p>
+          </div>
+          </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+          <div class="padding">
+            <h3 style="font-weight: bold;">Information</h3>
+            <div class="padding1">
+            <p><a href=""  class="color"> About Us</a> </p>
+            <p><a href=""  class="color">Our Design </a></p>
+            <p><a href=""  class="color">Pricing Plan</a> </p>
+            <p><a href=""  class="color">Our Team</a></p>
+            <p><a href=""  class="color">Our Service</a></p>
+            <p><a href=""  class="color">Could Mnager</a></p>
+              </div>
+              </div>
+                 
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                      <div class="padding">
+                        <h3 style="font-weight: bold;">Our Support</h3>
+                        <div class="padding1">
+                        <p>455 West Orchard Street Kings Mountain, NC 28086
+                          Phone: +8 (123) 985 789
+                          Email: support@yourbrand.com</p>
+                          </div>
+                          </div>
+                             
+                                </div>
+                    </div>
+            </div>
+          </div>
+         
+          <button id="topb"><i class="fa fa-arrow-up" aria-hidden="true"></i> </button>
+          <div class="overly">
+            <div class="spinner"></div>
+          </div>
+    </body>
+    <script>
+        $(window).scroll(function(){
+         (  $('nav').toggleClass('bg',$(this).scrollTop() > 50))
+        });
+  
+$(document).ready(function(){
+  $(window).scroll(function(){
+if($(this).scrollTop() > 40){
+  $("#topb").fadeIn();
+}else{
+  $("#topb").fadeOut();
+}
+  });
+$("#topb").click(function(){
+$('html,body').animate({scrollTop :0},800)
+
+});
+
+});
+$(window).on('load', function () {
+    
+$(".overly .spinner ").fadeOut(1200,function(){
+    $('body').css("overflow","auto");
+    $(this).parent().fadeOut(1200,function(){
+        $(this).remove();
+    });
+    });
+
+
+
+});
+
+    </script>
+</html>

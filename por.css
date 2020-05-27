@@ -1,0 +1,130 @@
+.head3 {
+  position: relative;
+  top: 200px;
+  padding: 0 50px;
+}
+
+.h1-1 {
+  font-weight: 800;
+  color: white;
+  text-transform: capitalize;
+}
+
+.hov:hover {
+  background-color: black;
+  color: white;
+}
+
+.hove2:hover {
+  background-color: green;
+  border-radius: 15px;
+  color: black;
+}
+
+.ae {
+  color: white;
+  font-size: 20px;
+}
+
+.ae:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.bb {
+  color: white;
+  font-size: 20px;
+}
+
+.mg {
+  background: url(back.jpg);
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 90px;
+}
+
+.bord {
+  height: 100px;
+  float: left;
+  position: relative;
+  top: -20px;
+  right: 20px;
+  border-right: 6px solid white;
+}
+
+.pad {
+  padding: 0 90px;
+}
+
+.bt1 {
+  margin-bottom: 30px;
+}
+
+.bt {
+  padding: 15px 30px;
+  box-sizing: border-box;
+}
+
+.bt2 {
+  padding: 15px 30px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+  .bt {
+    padding: 10px 10px;
+    box-sizing: border-box;
+  }
+
+  .bt2 {
+    padding: 90px 10px;
+    box-sizing: border-box;
+    position: relative;
+    right: 20px;
+  }
+
+  .pad {
+    padding: 0 20px;
+  }
+}
+.bt3 {
+  padding: 15px 30px;
+}
+
+.HO {
+  color: #000;
+}
+
+.HO:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+@media (max-width: 900px) {
+  .bt {
+    padding: 10px 70px;
+    box-sizing: border-box;
+  }
+
+  .bt2 {
+    padding: 10px 60px;
+    box-sizing: border-box;
+    position: relative;
+    right: 20px;
+  }
+
+  .bt3 {
+    padding: 10px 80px;
+    box-sizing: border-box;
+    right: 20px;
+  }
+
+  .pad {
+    padding: 0 10px;
+  }
+}
+
+/*# sourceMappingURL=por.css.map */

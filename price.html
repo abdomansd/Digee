@@ -1,0 +1,456 @@
+<html>
+    <head>
+<title> Serviese</title>
+<link rel="shortout icon" type="image/x-icon" href="favicon.png" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+         <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+         <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+         <link rel="stylesheet" href="path/to/swiper.min.css">
+         <link href="serr/ser.css" rel="stylesheet">
+<style>
+  body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.bord{
+    height: 100px;
+    float: left;
+    position: relative;
+    top: -20px;
+    right: 20px;
+    border-right: 6px solid white;
+}
+.spinner {
+  width: 50px;
+  height: 50px;
+  background-color:purple;
+
+  margin: 300px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+ .mg{
+    background: url(back.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 90px;}
+    .ae{
+        font-size: 20px;
+        color: white;
+    }
+.ae:hover{
+
+    color: white;
+    text-decoration: none;
+    opacity: .5;
+}
+.bb{
+    color: white;
+    font-size: 20px;
+}
+#top{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
+  .overly{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: black;
+    z-index: 99999;
+
+}
+
+
+</style>
+    </head>
+    <body>
+            <div class="cont1">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-dark fixed-top  ">
+                  <a class="navbar-brand" href="#"><span style="font-size: 25px;
+                    font-weight: 800;">Dig</span><span style="color: black;font-size: 25px;font-weight: 800;">ee</span></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse"
+                   data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle hove2" href="object.html" id="navbarDropdown" role="button"
+                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Home
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item hov" href="index.html">HOME ONE</a>
+                          <a class="dropdown-item hov" href="index.html">HOME TOW</a>
+                          <a class="dropdown-item hov" href="index.html">HOME THREE</a>
+                        
+                        
+                        </div>
+                      </li>
+                      <li class="nav-item hove2">
+                        <a class="nav-link" href="price.html">Services</a>
+                      </li>
+                      <li class="nav-item dropdown hove2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          protfilo
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item hov" href="port.html">protfilo coulim1</a>
+                          <a class="dropdown-item hov" href="port.html">protfilo coulim2</a>
+                          <a class="dropdown-item hov" href="port.html">protfilo coulim3</a>
+                       
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown hove2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                         aria-haspopup="true" aria-expanded="false">
+                          Bages
+                        </a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item hov" href="About.html">about us</a>
+                          <a class="dropdown-item hov" href="Pricing.html">pricing plan</a>
+                          <a class="dropdown-item hov" href="team.html">our team</a>
+                       
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown hove2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Blog
+                        </a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item hov" href="bloge.html"> blog grid</a>
+                          <a class="dropdown-item hov" href="bolg2.html">
+                            blog liste
+                          </a>
+                          <a class="dropdown-item hov" href="blog2.html">blog detailes</a>
+                       
+                        </div>
+                      </li>
+                      <li class="hove2">
+                        <a class="nav-link " href="contact.html">Contact Us</a>
+                      </li>
+                     
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      <button style="color: black;" class=" btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                  </div>
+                </nav>
+               </header>
+               
+    <div class="mg  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+        <div class="head2">
+          <div class="head3 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+              <div class="bord"></div>
+            <h3 class="h1-1">Our Service</h3>
+            <a class="ae" href="index.html"><span>Home</span></a>
+            <span class="bb">- Service</span>
+          </div>
+        </div>
+    </div> 
+    <div class="hed3">
+        <h5 style="color: blue;" class="wow fadeInDown"> Features</h5>
+        <h2 class="h2-3 wow fadeInDown">Some Of The Best Features</h2>
+<p class="wow fadeInDown">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration</p>
+<p class="wow fadeInDown" style="transform: translateY(-15px);">some randomised words which don't look even slightly believable.</p>
+      </div>
+      <div style="margin-bottom: 20px;" class=" container padd col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+        <div class="row">
+<div style="text-align: center;" class="exp col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4 wow fadeInUp">
+<img src="vv.png">
+<a href="#" class="EA"><h4>Book your Prievd</h4></a>
+<p>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in that injected.</p>
+</div>
+<div style="text-align: center; margin-bottom: 20px;" class="exp col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4 wow fadeInUp" >
+<img src="mm.png">
+<a href="#" class="EA"><h4>Market Analysis</h4></a>
+<p>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in that injected.</p>
+</div>
+<div style="text-align: center ;transform: translateY(5px);" class="exp col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4 wow fadeInUp ">
+<img style="transform: translateY(-10px) ;margin-left: -33px;" src="ll.png">
+
+<a href="#" class="EA "><h4>Creaatve web solution</h4></a>
+<p>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in that injected.</p>
+</div>
+
+
+      </div>
+      </div>
+      <div class=" container padd col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+        <div class="row">
+<div style="text-align: center;" class="exp col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4 wow bounceInRight">
+<img src="z.png" class="wow bounceInRight">
+<a href="#" class="wow bounceInRight EA"><h4>Expand Your Reach</h4></a>
+<p class="wow bounceInRight">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in 
+that injected.</p>
+</div>
+<div style="text-align: center;" class="exp col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4 wow bounceInRight">
+<img src="x.png" class="wow bounceInRight">
+<a href="#" class="wow bounceInRight EA"><h4>Higher Growth Rate</h4></a>
+<p class="wow bounceInRight" >There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in 
+that injected.</p>
+</div>
+<div style="text-align: center ;transform: translateY(-10px);" class="exp col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4  wow bounceInRight">
+<img class="wow bounceInRight" style="transform: translateY(-10px) ;margin-left: -33px;" src="cc.png">
+<a href="#" class="wow bounceInRight EA"><h4>Manger your coustom</h4></a>
+<p class="wow bounceInRight">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in 
+that injected.</p>
+</div>
+      </div>
+      </div> 
+      <div class="container  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 pa10">
+          <div class="row">
+<div class="your  col-12 col-sm-12 col-md-12 col-lg-6 col-lx-6">
+    <h2 class="h2-">Why We’re The Best Match</h2>
+    <h2 class="h2-7 ">For Your Business!!</h2>
+    <p style="color: rgb(160, 148, 148); margin-bottom: 10px;">There are many 
+        variations of passages of Lorem Ipsum available the majority to have suffered some form by injected.</p>
+        <div class="ico col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+            <i style="font-size: 30px; position: relative;right: 20px;top: 40px; color: gold;
+              border: 1px solid gold;border-radius: 50%; padding: 2px;"
+             class="fa fa-check fon10" aria-hidden="true"></i>
+            <p style="position: relative;left: 20px;">There are many variations of passages of Lorem
+                Ipsum available but the majority have suffered alteration.</p>
+                <i style="font-size: 30px; position: relative;right: 20px;top: 40px; color: gold;
+                 border: 1px solid gold;border-radius: 50%; padding: 2px;"
+                 class="fa fa-check fon10" aria-hidden="true"></i>
+                <p style="position: relative;left: 20px;">If you are going a to use a passage of
+                     Lorem Ipsum you need to be sure there isn't anything embarrassing.</p>
+                    <i style="font-size: 30px; position: relative;right: 20px;top: 40px; color: gold; 
+                     border: 1px solid gold;border-radius: 50%; padding: 2px;"
+                     class="fa fa-check fon10" aria-hidden="true"></i>
+                    <p style="position: relative;left: 20px;">There are many
+                         variations of passages of Lorem Ipsum available but the majority have suffered alteration.
+                    </p>
+        </div>
+</div>
+<div class="img2 col-12 col-sm-12 col-md-12 col-lg-6 col-lx-6  wow heartBeat">
+    <img src="best.png "class=" img-fluid " >
+   </div>
+          </div>
+      </div>   
+      <div class="hed3">
+        <h5 style="color: blue;" class="wow fadeInDown">Choose</h5>
+        <h2 class="h2-3 wow fadeInDown">Your Best Plan</h2>
+<p class="wow fadeInDown">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration</p>
+<p style="transform: translateY(-15px);">some randomised words which don't look even slightly believable.</p>
+      </div>
+      <div class="continuar col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 padd10">
+        <div class="row aut">
+          <div class="div11 col-12 col-sm-12 col-md-12 col-lg-4 col-lx-3 wow fadeInLeft">
+    <div class="div12 wow fadeInLeft ">
+    <span class="sp2"><sup>$</sup>49<sub>/mo</sub></span>
+    <div style="border: 1px solid gray;margin-top: 30px; margin-bottom: 40px;"
+    class=" col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12"></div>
+    <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+    <span style="font-size: 15px;">Dark Side in Windows 10</span>
+    </div>
+    <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+    <span style="font-size: 15px;">Hannah Bronfman Beauty Hound</span>
+    </div>
+    <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+    <span style="font-size: 15px;">Where Art and Technology Collide</span>
+    </div>
+    <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+    <span style="font-size: 15px;">Checking a Website’s Security</span>
+    </div>
+    <button  type="button" class="btn btn-primary mr10">Read More</button>
+    
+    
+    </div>
+    
+          </div>
+          <div class="div11 col-12 col-sm-12 col-md-12 col-lg-4 col-lx-3 wow fadeInUp  ">
+            <div class="div12  wow  fadeInUp   ">
+              <span class="sp2"><sup>$</sup>59<sub>/mo</sub></span>
+              <div style="border: 1px solid gray; margin-top: 30px;margin-bottom: 40px;"
+               class=" col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12"></div>
+               <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+                <span style="font-size: 15px;">Dark Side in Windows 10</span>
+              </div>
+              <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+                <span style="font-size: 15px;">Hannah Bronfman Beauty Hound</span>
+              </div>
+              <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+                <span style="font-size: 15px;">Where Art and Technology Collide</span>
+              </div>
+              <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+                <span style="font-size: 15px;">Checking a Website’s Security</span>
+              </div>
+              <button type="button" class="btn btn-primary mr10">Read More</button>
+            </div>
+                      </div>
+                      <div class="div11 col-12 col-sm-12 col-md-12 col-lg-4 col-lx-3 wow fadeInRight">
+                        
+                        <div class="div12 wow fadeInRight ">
+                          <span class="sp2"><sup>$</sup>69<sub>/mo</sub></span>
+                          <div style="border: 1px solid gray;margin-top: 30px;margin-bottom: 40px;"
+                           class=" col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12"></div>
+                           <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+                            <span style="font-size: 15px;" >Dark Side in Windows 10</span>
+                          </div>
+                          <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+                            <span style="font-size: 15px;">Hannah Bronfman Beauty Hound</span>
+                          </div>
+                          <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+                            <span style="font-size: 15px;">Where Art and Technology Collide</span>
+                          </div>
+                          <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+                            <span style="font-size: 15px;">Checking a Website’s Security</span>
+                          </div>
+                          <button type="button" class="btn btn-primary mr10">Read More</button>
+                        </div>
+                        
+                        
+                                  </div>
+                                  
+        </div>
+      </div>
+      <div class="cont19">
+        <div class="container">
+          <div style="padding:50px 0px;" class="row">
+      
+      <div class="f1 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+      
+          <div class="padding1">
+      <h3 style="font-weight: bold; color: #fff;">Dig<span style="color: black;">ee</span></h3>
+      <div class="padding1">
+     <p>There are many variations of passages of Lorem the Ipsum available but the is majority have
+        suffered that a alteration in that some dummy text. passages of Lorem the Ipsum available</p>
+        <i class="fa fa-facebook-official fon1" aria-hidden="true"></i>
+        <i class="fa fa-instagram fon1" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square fon1" aria-hidden="true"></i>
+        <i class="fa fa-google-plus-square fon1" aria-hidden="true"></i>
+      </div>
+      </div>
+      </div>
+      <div class="f2 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+      
+          <div style="margin-bottom: 30px;" class="padding1">
+          <h3 style="font-weight: bold;">About Company</h3>
+          <div class="padding1">
+          <p><a href=""  class="color"> How it Work</a> </p>
+          <p><a href=""  class="color">Search Engine Opitimes </a></p>
+          <p><a href=""  class="color">Devolpment</a> </p>
+          <p><a href=""  class="color">Degital Markiting</a></p>
+          <p><a href=""  class="color">Contect Customers</a></p>
+          <p><a href=""  class="color">Our Security</a></p>
+      </div>
+      </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+      <div class="padding">
+        <h3 style="font-weight: bold;">Information</h3>
+        <div class="padding1">
+        <p><a href=""  class="color"> About Us</a> </p>
+        <p><a href=""  class="color">Our Design </a></p>
+        <p><a href=""  class="color">Pricing Plan</a> </p>
+        <p><a href=""  class="color">Our Team</a></p>
+        <p><a href=""  class="color">Our Service</a></p>
+        <p><a href=""  class="color">Could Mnager</a></p>
+          </div>
+          </div>
+             
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                  <div class="padding">
+                    <h3 style="font-weight: bold;">Our Support</h3>
+                    <div class="padding1">
+                    <p>455 West Orchard Street Kings Mountain, NC 28086
+                      Phone: +8 (123) 985 789
+                      Email: support@yourbrand.com</p>
+                      </div>
+                      </div>
+                         
+                            </div>
+                </div>
+               
+      </div>
+    </div>
+    <button id="top"><i class="fa fa-arrow-up" aria-hidden="true"></i> </button>
+    <div class="overly">
+      <div class="spinner"></div>
+    </div>
+    </body>
+    <script>
+         $(window).scroll(function(){
+          $('nav').toggleClass('bg',$(this).scrollTop() > 100)
+         });
+ 
+         $(document).ready(function(){
+$(window).scroll(function(){
+if($(this).scrollTop() >50){
+  $("#top").fadeIn()
+}else{
+  $("#top").fadeOut()
+}
+});
+$("#top").click(function(){
+$('html ,body').animate({scrollTop :0},800);
+});
+});
+$(window).on('load', function () {
+    
+    $(".overly .spinner ").fadeOut(1200,function(){
+        $('body').css("overflow","auto");
+        $(this).parent().fadeOut(1200,function(){
+            $(this).remove();
+        });
+        });
+    
+    
+    
+    });
+    </script>
+</html>

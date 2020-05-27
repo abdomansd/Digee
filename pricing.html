@@ -1,0 +1,949 @@
+<html>
+    <head>
+        <title>
+          our   Pricing
+        </title>
+        <link rel="shortout icon" type="image/x-icon" href="favicon.png" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+         <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+         <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+         <link rel="stylesheet" href="path/to/swiper.min.css">
+         <link href="pricing/pr.css" rel="stylesheet">
+        <style>
+  .mg{
+            background: url(back.jpg);
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 80px;
+        }
+        body{
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+        .overly{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: black;
+    z-index: 99999;
+
+}
+.spinner {
+  width: 50px;
+  height: 50px;
+  background-color:purple;
+
+  margin: 300px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+        
+.box{
+    position: relative;
+    height: 300px;
+    
+    
+}
+.img-box{
+    position: relative;
+    overflow: hidden;
+}
+.img-box img{
+
+    transition: 2s;
+}
+.cont122{
+    padding: 0 90px;
+}
+.box .about{
+    position: absolute;
+    top: 10px;
+   left: 25px;
+    background: rgba(0,0, 0,0.8);
+    transform: scaleY(0);
+    transition: 2s;
+    height: 200px;
+}
+
+.box:hover .img-box img{
+    transform: scale(1.1);
+}
+
+.box:hover .about{
+    transform: scaleY(1);
+}
+.box .about .content{
+    height: 300px;
+    transform: translateY(60px);
+    color: white;
+    text-align: center;
+}
+.box .about .content h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+
+@media(max-width: 890px){
+    .box{
+    position: relative;
+    height: 300px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+.img-box{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+
+.img-box img{
+    transition: 2s;}
+.cont122{
+    margin-left: 50px;
+}
+
+.box:hover .img-box img{
+    transform: scale(1.1);
+}
+.box .about{
+    position: absolute;
+    top: 10px;
+    margin: auto;
+text-align: center;
+    margin: 10px auto;
+left: 200px;
+height: 220px;
+    width: 40%;
+    background: rgba(0,0, 0,0.8);
+    transform: scaleY(0);
+    transition: 2s;
+}
+
+.box:hover .about{
+    transform: scaleY(1.1);
+}
+.box .about .content{
+    
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+.box .about .content h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.borr{
+    margin:  auto;
+}
+.icon0{
+    margin: auto;
+    text-align: center;
+    margin-left: -60px;
+}
+
+}
+@media(max-width: 778px){
+    .box{
+    position: relative;
+    height: 300px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+.borr{
+    border: gray 1px solid;
+    position: relative;
+    top: 40px;
+    width: 40%;
+}
+.img-box{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+
+.img-box img{
+    transition: 2s;}
+.cont122{
+    
+    padding: 0 10px;
+}
+
+.box:hover .img-box img{
+    transform: scale(1.1);
+}
+.box .about{
+    position: absolute;
+    top: 10px;
+    margin: auto;
+text-align: center;
+    margin: 10px auto;
+left: 245px;
+height: 200px;
+width: 35%;
+    
+    background: rgba(0,0, 0,0.8);
+    transform: scaleY(0);
+    transition: 2s;
+}
+
+.box:hover .about{
+    transform: scaleY(1);
+}
+.box .about .content{
+    margin-top: -40px;
+    height: 250px;
+    color: white;
+    text-align: center;
+}
+.box .about .content h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.borr{
+    margin:  auto;
+}
+.icon0{
+    margin: auto;
+    text-align: center;
+    margin-left: -60px;
+}
+
+}
+@media(max-width: 700px){
+    .box{
+    position: relative;
+    height: 300px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+.borr{
+    border: gray 1px solid;
+    position: relative;
+    top: 40px;
+    width: 40%;
+}
+.img-box{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+
+.img-box img{
+    transition: 2s;}
+.cont122{
+    
+    padding: 0 10px;
+}
+
+.box:hover .img-box img{
+    transform: scale(1.1);
+}
+.box .about{
+    position: absolute;
+    top: 10px;
+    margin: auto;
+text-align: center;
+    margin: 10px auto;
+left: 230px;
+height: 200px;
+width: 35%;
+    
+    background: rgba(0,0, 0,0.8);
+    transform: scaleY(0);
+    transition: 2s;
+}
+
+.box:hover .about{
+    transform: scaleY(1);
+}
+.box .about .content{
+    margin-top: -40px;
+    height: 250px;
+    color: white;
+    text-align: center;
+}
+.box .about .content h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.borr{
+    margin:  auto;
+}
+.icon0{
+    margin: auto;
+    text-align: center;
+    margin-left: -60px;
+}
+
+}
+@media(max-width: 590px){
+    .box{
+    position: relative;
+    height: 300px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+.borr{
+    border: gray 1px solid;
+    position: relative;
+    top: 40px;
+    width: 50%;
+}
+.img-box{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+
+.img-box img{
+    transition: 2s;}
+.cont122{
+    
+    padding: 0 10px;
+    margin-left: -20px;
+}
+
+.box:hover .img-box img{
+    transform: scale(1.1);
+}
+.box .about{
+    position: absolute;
+    top: 10px;
+    margin: auto;
+text-align: center;
+    margin: 10px auto;
+left: 150px;
+height: 200px;
+width: 47%;
+    
+    background: rgba(0,0, 0,0.8);
+    transform: scaleY(0);
+    transition: 2s;
+}
+
+.box:hover .about{
+    transform: scaleY(1);
+}
+.box .about .content{
+    margin-top: -40px;
+    height: 250px;
+    color: white;
+    text-align: center;
+}
+.box .about .content h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.borr{
+    margin:  auto;
+}
+.icon0{
+    margin: auto;
+    text-align: center;
+    margin-left: -60px;
+}
+
+}
+@media(max-width: 480px){
+    .box{
+    position: relative;
+    height: 300px;
+    margin-bottom: 170px;
+    margin-left: 10px;
+    transform: translateX(-30px);
+}
+.img-box{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+
+.img-box img{
+    height: 300px;
+    transition: 2s;}
+
+.cont122{
+    margin-left: 30px;
+    padding: 0 20px;
+}
+
+.box:hover .img-box img{
+    transform: scale(1.1);
+}
+.box .about{
+    position: absolute;
+    top: 10px;
+    margin: auto;
+text-align: center;
+    margin: 10px auto;
+left: 80px;
+height: 200px;
+
+    width: 60%;
+    background: rgba(0,0, 0,0.8);
+    transform: scaleY(0);
+    transition: 2s;
+}
+
+.box:hover .about{
+    transform: scaleY(1);
+}
+.box .about .content{
+    margin-top: -50px;
+    height: 150px;
+    color: white;
+
+    text-align: center;
+}
+.box .about .content h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.borr{
+    margin:  auto;
+}
+.icon0{
+    margin: auto;
+    text-align: center;
+    margin-left: -60px;
+}
+
+}
+@media(max-width: 390px){
+    .box{
+    position: relative;
+    height: 300px;
+    margin-bottom: 170px;
+    margin-left: 10px;
+    transform: translateX(-30px);
+}
+.img-box{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+
+.img-box img{
+    height: 300px;
+    
+    transition: 2s;}
+
+.cont122{
+    padding: 0 30px;
+    margin-left: 10px;
+}
+
+.box:hover .img-box img{
+    transform: scale(1.1);
+    
+}
+.box .about{
+    position: absolute;
+    top: 10px;
+    margin: auto;
+text-align: center;
+    margin: 10px auto;
+left: 36px;
+height: 270px;
+    background: rgba(0,0, 0,0.8);
+    transform: scaleY(0);
+    transition: 2s;
+    width: 80%;
+
+}
+
+.box:hover .about{
+    transform: scaleY(1);
+}
+.box .about .content{
+    margin-top: -50px;
+    height: 150px;
+    color: white;
+
+    text-align: center;
+}
+.box .about .content h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.borr{
+    margin:  auto;
+}
+.icon0{
+    margin: auto;
+    text-align: center;
+    margin-left: -60px;
+}
+
+}
+
+.borr{
+    border: gray 1px solid;
+    position: relative;
+    top: 40px;
+}
+.icon0{
+    transform: translateX(20px);
+}
+.fon9{
+    font-size: 30px;
+    margin-left: 20px;
+    
+}
+.fon9:hover{
+color:red;
+
+}
+.cont122{
+    margin-bottom: 100px;
+}
+.mrd{
+    margin-bottom: 40px;
+}
+        </style>
+    </head>
+    <body>
+<div class="cont1">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+              <a class="navbar-brand" href="#"><span style="font-size: 25px;font-weight: 800;">Dig</span><span style="color:
+               black;font-size: 25px;font-weight: 800;">ee</span></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse"
+               data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle hove2" href="#" id="navbarDropdown" role="button"
+                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Home
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item hov" href="index.html">HOME ONE</a>
+                      <a class="dropdown-item hov" href="index.html">HOME TOW</a>
+                      <a class="dropdown-item hov" href="index.html">HOME THREE</a>
+                    
+                    
+                    </div>
+                  </li>
+                  <li class="nav-item hove2">
+                    <a class="nav-link" href="Price.html">Services</a>
+                  </li>
+                  <li class="nav-item dropdown hove2">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      protfilo
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item hov" href="port.html">protfilo coulim1</a>
+                      <a class="dropdown-item hov" href="port.html">protfilo coulim2</a>
+                      <a class="dropdown-item hov" href="port.html">protfilo coulim3</a>
+                   
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown hove2">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                     aria-haspopup="true" aria-expanded="false">
+                      Bages
+                    </a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item hov" href="About.html">about us</a>
+                      <a class="dropdown-item hov" href="Pricing.html">pricing plan</a>
+                      <a class="dropdown-item hov" href="team.html">our team</a>
+                   
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown hove2">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Blog
+                    </a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item hov" href="bloge.html"> blog grid</a>
+                      <a class="dropdown-item hov" href="blog2.html">
+                        blog liste
+                      </a>
+                      <a class="dropdown-item hov" href="blog2.html">blog detailes</a>
+                   
+                    </div>
+                  </li>
+                  <li class="hove2">
+                    <a class="nav-link " href="contact.html">Contact Us</a>
+                  </li>
+                 
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button style="color: black;" class=" btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+            </nav>
+           </header>
+           
+<div class="mg  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+    <div class="head2">
+      <div class="head3 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+          <div class="bord"></div>
+        <h2 class="h1-1">Our pricing</h2>
+        <a class="ae" href="object.html"><span>Home</span></a>
+        <span class="bb">-  Pricing</span>
+      </div>
+    </div>
+       
+</div>
+<div class="continuar col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 padd10">
+    <div class="row aut">
+      <div class="div11 col-12 col-sm-12 col-md-12 col-lg-4 col-lx-3 wow fadeInLeft">
+<div class="div12 wow fadeInLeft ">
+<span class="sp2"><sup>$</sup>49<sub>/mo</sub></span>
+<div style="border: 1px solid gray;margin-top: 30px; margin-bottom: 40px;"
+class=" col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12"></div>
+<div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+<span style="font-size: 15px;">Dark Side in Windows 10</span>
+</div>
+<div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+<span style="font-size: 15px;">Hannah Bronfman Beauty Hound</span>
+</div>
+<div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+<span style="font-size: 15px;">Where Art and Technology Collide</span>
+</div>
+<div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+<span style="font-size: 15px;">Checking a Website’s Security</span>
+</div>
+<button  type="button" class="btn btn-primary mr10">Read More</button>
+
+
+</div>
+
+      </div>
+      <div class="div11 col-12 col-sm-12 col-md-12 col-lg-4 col-lx-3 wow fadeInUp  ">
+        <div class="div12  wow  fadeInUp   ">
+          <span class="sp2"><sup>$</sup>59<sub>/mo</sub></span>
+          <div style="border: 1px solid gray; margin-top: 30px;margin-bottom: 40px;"
+           class=" col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12"></div>
+           <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+            <span style="font-size: 15px;">Dark Side in Windows 10</span>
+          </div>
+          <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+            <span style="font-size: 15px;">Hannah Bronfman Beauty Hound</span>
+          </div>
+          <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+            <span style="font-size: 15px;">Where Art and Technology Collide</span>
+          </div>
+          <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+            <span style="font-size: 15px;">Checking a Website’s Security</span>
+          </div>
+          <button type="button" class="btn btn-primary mr10">Read More</button>
+        </div>
+                  </div>
+                  <div class="div11 col-12 col-sm-12 col-md-12 col-lg-4 col-lx-3 wow fadeInRight">
+                    
+                    <div class="div12 wow fadeInRight ">
+                      <span class="sp2"><sup>$</sup>69<sub>/mo</sub></span>
+                      <div style="border: 1px solid gray;margin-top: 30px;margin-bottom: 40px;"
+                       class=" col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12"></div>
+                       <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+                        <span style="font-size: 15px;" >Dark Side in Windows 10</span>
+                      </div>
+                      <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+                        <span style="font-size: 15px;">Hannah Bronfman Beauty Hound</span>
+                      </div>
+                      <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+                        <span style="font-size: 15px;">Where Art and Technology Collide</span>
+                      </div>
+                      <div class="div-icon"><i class="fa fa-check fon3" aria-hidden="true"></i>
+                        <span style="font-size: 15px;">Checking a Website’s Security</span>
+                      </div>
+                      <button type="button" class="btn btn-primary mr10">Read More</button>
+                    </div>
+                    
+                    
+                              </div>
+                              
+    </div>
+  </div>
+  <div style="padding:  0 80px; margin-bottom: 120px; " class="cont60 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+      <div class="row">
+<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-lx-6">
+    <img src="pag.png" class="img-fluid ">
+</div>
+<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-lx-6 chang-place">
+<div class="row">
+    <div class="numb1 col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4 ">
+        <h3 class="num wow fadeInUp">248</h3>
+    <h5 class="wow  fadeInUp">Happy Customer</h5>
+    </div>
+    <div class="numb1 col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4 ">
+        <h3 class="num wow fadeInUp">39</h3>
+    <h5 class="wow fadeInUp">Award Win</h5>
+    </div>
+    <div class="numb1 col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+        <h3 class="num wow fadeInUp">587</h3>
+    <h5 class="wow fadeInUp">Project Complete</h5>
+    </div>
+</div>
+</div>
+</div>
+  </div>
+  <div class="contine col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 mrd ">
+      <div class="row">
+          <div class="Expert col-12 col-sm-12 col-md-12 col-lg-6 col-lx-6 wow fadeInLeft">
+<p style="word-spacing: 3px;font-size: 25px;transform: translateY(18px); color: rgb(104, 104, 245); font-family: Arial,
+ Helvetica, sans-serif;">
+    Our Executive</p>
+
+<h4 style="font-size: 30px; font-weight: 700;">Expert Team</h4>
+<p style="color: gray;">There are many variations of passages of Lorem Ipsum available but the
+     that majority have words which don't look even slightly believable.</p>
+          </div>
+          <div class="butt  col-12 col-sm-12 col-md-12 col-lg-6 col-lx-6 wow fadeInRight">
+            <button type="button" class="btn btn-primary bt4  col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3">View All</button>
+          </div>
+      </div>
+  </div>
+  <div class="cont122  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+      <div class="row">
+        <div class="box col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3 wow fadeInLeft">
+            <div class="img-box  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+                <img src="girl1.jpg " class="img-fluid ">
+            </div>
+            <div class="about  col-12 col-sm-12 col-md-5 col-lg-10 col-lx-10">
+                <div class="content">
+                <h3>Bethany Kertzmann</h3>
+                <p>Twenty-year veteran of real estate management seeks to bring a proven track record of success</p>
+            </div>
+            </div>
+            <h3 style="text-align: center;">Bethany Kertzmann</h3>
+             
+            <p style="text-align: center;font-size: 18px;margin-top: -5px;">General Manager</p>
+          
+            <div class="borr col-11 col-sm-11 col-md-4 col-lg-11 col-lx-11"> </div>
+            <div class="icon0">
+             <i class="fa fa-instagram fon9" aria-hidden="true"></i>
+             <i class="fa fa-facebook-square fon9" aria-hidden="true"></i>
+             <i class="fa fa-twitter-square fon9" aria-hidden="true"></i>
+             <i class="fa fa-pinterest-square fon9" aria-hidden="true"></i>
+           </div>
+        </div>
+   <div class="box col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3 wow fadeInUp">
+    <div class="img-box  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+        <img src="man1.jpg " class="img-fluid ">
+    </div>
+    <div class="about  col-10 col-sm-10 col-md-5 col-lg-10 col-lx-10">
+        <div class="content">
+        <h3>Orpha Williamson</h3>
+        <p>Twenty-year veteran of real estate management seeks to bring a proven track record of success</p>
+    </div>
+    </div>
+    <h3 style="text-align: center;">Orpha Williamson</h3>
+     
+    <p style="text-align: center;font-size: 18px;margin-top: -5px;">Web Developer</p>
+  
+    <div class="borr col-11 col-sm-11 col-md-4 col-lg-11 col-lx-11"> </div>
+    <div class="icon0">
+     <i class="fa fa-instagram fon9" aria-hidden="true"></i>
+     <i class="fa fa-facebook-square fon9" aria-hidden="true"></i>
+     <i class="fa fa-twitter-square fon9" aria-hidden="true"></i>
+     <i class="fa fa-pinterest-square fon9" aria-hidden="true"></i>
+   </div>
+</div>
+<div class="box col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3 wow fadeInUp">
+    <div class="img-box  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+        <img src="girl2.jpg " class="img-fluid ">
+    </div>
+    <div class="about  col-10 col-sm-10 col-md-5 col-lg-10 col-lx-10">
+        <div class="content">
+        <h3>Eveline Lemke</h3>
+        <p>Twenty-year veteran of real estate management seeks to bring a proven track record of success</p>
+    </div>
+    </div>
+    <h3 style="text-align: center;">Eveline Lemke</h3>
+     
+    <p style="text-align: center;font-size: 18px;margin-top: -5px;">Office services</p>
+  
+    <div class="borr col-11 col-sm-11 col-md-5 col-lg-11 col-lx-11"> </div>
+    <div class="icon0">
+     <i class="fa fa-instagram fon9" aria-hidden="true"></i>
+     <i class="fa fa-facebook-square fon9" aria-hidden="true"></i>
+     <i class="fa fa-twitter-square fon9" aria-hidden="true"></i>
+     <i class="fa fa-pinterest-square fon9" aria-hidden="true"></i>
+   </div>
+</div>
+<div class="box col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3 wow fadeInRight">
+    <div class="img-box  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+        <img src="man2.jpg " class="img-fluid  ">
+    </div>
+    <div class="about  col-10 col-sm-10 col-md-5 col-lg-10 col-lx-10">
+        <div class="content">
+        <h3>Melany Wunsch</h3>
+        <p>Twenty-year veteran of real estate management seeks to bring a proven track record of success</p>
+    </div>
+    </div>
+    <h3 style="text-align: center;">Melany Wunsch</h3>
+     
+    <p style="text-align: center;font-size: 18px;margin-top: -5px;">Office services</p>
+  
+    <div class="borr col-11 col-sm-11 col-md-4 col-lg-11 col-lx-11"> </div>
+    <div class="icon0">
+     <i class="fa fa-instagram fon9" aria-hidden="true"></i>
+     <i class="fa fa-facebook-square fon9" aria-hidden="true"></i>
+     <i class="fa fa-twitter-square fon9" aria-hidden="true"></i>
+     <i class="fa fa-pinterest-square fon9" aria-hidden="true"></i>
+   </div>
+</div>
+
+      
+      </div>
+  </div>
+  <div class="cont19 ">
+    <div class="container">
+      <div style="padding:50px 0px;" class="row">
+  
+  <div class="f1 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+  
+      <div class="padding1">
+  <h3 style="font-weight: bold; color: #fff;">Dig<span style="color: black;">ee</span></h3>
+  <div class="padding1">
+ <p>There are many variations of passages of Lorem the Ipsum available but the is majority have
+    suffered that a alteration in that some dummy text. passages of Lorem the Ipsum available</p>
+    <i class="fa fa-facebook-official fon1" aria-hidden="true"></i>
+    <i class="fa fa-instagram fon1" aria-hidden="true"></i>
+    <i class="fa fa-twitter-square fon1" aria-hidden="true"></i>
+    <i class="fa fa-google-plus-square fon1" aria-hidden="true"></i>
+  </div>
+  </div>
+  </div>
+  <div class="f2 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+  
+      <div style="margin-bottom: 30px;" class="padding1">
+      <h3 style="font-weight: bold;">About Company</h3>
+      <div class="padding1">
+      <p><a href=""  class="color"> How it Work</a> </p>
+      <p><a href=""  class="color">Search Engine Opitimes </a></p>
+      <p><a href=""  class="color">Devolpment</a> </p>
+      <p><a href=""  class="color">Degital Markiting</a></p>
+      <p><a href=""  class="color">Contect Customers</a></p>
+      <p><a href=""  class="color">Our Security</a></p>
+  </div>
+  </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+  <div class="padding">
+    <h3 style="font-weight: bold;">Information</h3>
+    <div class="padding1">
+    <p><a href=""  class="color"> About Us</a> </p>
+    <p><a href=""  class="color">Our Design </a></p>
+    <p><a href=""  class="color">Pricing Plan</a> </p>
+    <p><a href=""  class="color">Our Team</a></p>
+    <p><a href=""  class="color">Our Service</a></p>
+    <p><a href=""  class="color">Could Mnager</a></p>
+      </div>
+      </div>
+         
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+              <div class="padding">
+                <h3 style="font-weight: bold;">Our Support</h3>
+                <div class="padding1">
+                <p>455 West Orchard Street Kings Mountain, NC 28086
+                  Phone: +8 (123) 985 789
+                  Email: support@yourbrand.com</p>
+                  </div>
+                  </div>
+                     
+                        </div>
+            </div>
+    </div>
+  </div>
+  <button id="topb"><i class="fa fa-arrow-up" aria-hidden="true"></i> </button>
+  <div class="overly">
+    <div class="spinner"></div>
+  </div>
+    </body>
+    <script>
+$(".num").counterUp({delay:5,time:1100});
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+if($(this).scrollTop() > 40){
+  $("#topb").fadeIn();
+}else{
+  $("#topb").fadeOut();
+}
+  });
+$("#topb").click(function(){
+$('html,body').animate({scrollTop :0},800)
+});
+});
+$(window).scroll(function(){
+       $('nav').toggleClass('bg',$(this).scrollTop() > 50)
+   });
+   $(window).on('load', function () {
+    
+    $(".overly .spinner ").fadeOut(1200,function(){
+        $('body').css("overflow","auto");
+        $(this).parent().fadeOut(1200,function(){
+            $(this).remove();
+        });
+        });
+   });
+    </script>
+</html>
