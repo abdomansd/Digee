@@ -158,13 +158,13 @@ sub {
   color: white;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 980px) {
   .div12:hover {
     background-color: purple;
     opacity: 0.9;
     color: white;
     margin-left: -18px;
-    width: 106%;
+    width: 104%;
   }
 
   .bt4 {
