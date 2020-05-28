@@ -134,7 +134,7 @@ sub {
   }
 
   .mr10 {
-    transform: translateY(-30px);
+    transform: translateY(30px);
   }
 
   .div11 {
@@ -163,7 +163,7 @@ sub {
     opacity: 0.9;
     color: white;
     margin-left: -18px;
-    width: 106%;
+    width: 105%;
   }
 
   .bt4 {
@@ -191,7 +191,7 @@ sub {
   }
 
   .mr10 {
-    transform: translateY(-30px);
+    transform: translateY(30px);
   }
 
   .div11 {
@@ -326,7 +326,7 @@ sub {
   }
 }
 .cont19 {
-  background: url(blueback.jpg);
+  background: url(back.jpg);
   color: white;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
