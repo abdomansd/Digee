@@ -128,7 +128,7 @@
   .cont {
     position: relative;
     height: 200px;
-    margin-bottom: 340px;
+    margin-bottom: 400px;
   }
 
   .overly {
@@ -156,12 +156,12 @@
     height: 0;
     width: 0;
     top: 0;
-    left: 34px;
+    left: 45px;
     width: 80%;
   }
 
   .cont:hover .overright {
-    height: 270px;
+    height: 370px;
   }
 
   .deta {
